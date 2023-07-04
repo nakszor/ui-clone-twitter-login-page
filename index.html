@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/colors.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
+    <title>Página de login</title>
+</head>
+<body>
+    <main class="main">
+        <section class="section">
+            <div id="modal" class="modal-bg modal hidden">
+                <div class="modal-content">
+                    <div  id="close-modal" class="close cursor">
+                        <p>Fechar</p>
+                    </div>
+                    <div class="center">
+                        <img class="logo-twitter" src="./img/logo-twitter.png" alt="logo twitter">
+                        <h3 class="title1">Encontre sua conta</h3>
+                        <input class="margin input1 input-user white-buttons" type="text" placeholder="Digite seu e-mail, número de celular, nome de usuário">
+                        <button class="button-default button-password btn-1 white-buttons">Buscar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="div-1">
+                <img class="img-div-1" src="./img/img-twitter.png" alt="">
+            </div>
+            <div class="div-2">
+                <div class="container ">
+                    <div class="div-logo-twitter-titulo">
+                        <img class="logo-twitter" src="./img/logo-twitter.png" alt="logo twitter">
+                        <h3 class="title1">Entrar no twitter</h3>
+                    </div>
+                    <div>
+                        <div class="margin div-login-google cursor white-buttons">
+                            <img class="logo-google" src="./img/logo-gmail.png" alt="logo g-mail">
+                            <p class="texto-google">Fazer login com google</p>
+                        </div>
+                        <div class="margin div-login-google cursor white-buttons">
+                            <img  class="logo-google" src="./img/logo-apple.png" alt="logo apple">
+                            <h4>Entrar com apple</h4>
+                        </div>
+                        <div class="margin div-bars">
+                            <div class="bars"></div>
+                            <p>ou</p>
+                            <div class="bars"></div>
+                        </div>
+                        <form class="form-user" action="">
+                            <input class="margin input-user white-buttons" type="text" placeholder="Celular, e-mail ou nome de usuário">
+                            <button class="margin button-form button-default">Avançar</button>
+                        </form>
+                        <div class="margin div-password">
+                            <button id="button-password" class="button-default button-password white-buttons border" >Esqueceu sua senha?</button>
+                        </div>
+                        <div class="margin div-subscribe">
+                            <p>Não tem uma conta?</p>
+                            <a class="subscribe" href="#">Inscreva-se</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+   <script src="./script/script.js"></script> 
+</body>
+</html>

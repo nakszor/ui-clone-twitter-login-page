@@ -1,0 +1,7 @@
+.input-user{
+    height: 25px;
+    border: solid 1px var(--grey2);
+}
+.input-user:focus{
+    border: solid 1px var(--color-brand-1);
+}
